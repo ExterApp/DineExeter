@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		279CF78C1A2581D900163AC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279CF78B1A2581D900163AC1 /* AppDelegate.swift */; };
+		279CF78E1A2581D900163AC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279CF78D1A2581D900163AC1 /* ViewController.swift */; };
+		279CF7911A2581D900163AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279CF78F1A2581D900163AC1 /* Main.storyboard */; };
+		279CF7931A2581D900163AC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279CF7921A2581D900163AC1 /* Images.xcassets */; };
+		279CF7961A2581D900163AC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279CF7941A2581D900163AC1 /* LaunchScreen.xib */; };
+		279CF7A21A2581D900163AC1 /* DineExeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279CF7A11A2581D900163AC1 /* DineExeterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		279CF79C1A2581D900163AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 279CF77E1A2581D900163AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 279CF7851A2581D900163AC1;
+			remoteInfo = DineExeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		279CF7861A2581D900163AC1 /* DineExeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DineExeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		279CF78A1A2581D900163AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279CF78B1A2581D900163AC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		279CF78D1A2581D900163AC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		279CF7901A2581D900163AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		279CF7921A2581D900163AC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		279CF7951A2581D900163AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		279CF79B1A2581D900163AC1 /* DineExeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DineExeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		279CF7A01A2581D900163AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279CF7A11A2581D900163AC1 /* DineExeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DineExeterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		279CF7831A2581D900163AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279CF7981A2581D900163AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		279CF77D1A2581D900163AC1 = {
+			isa = PBXGroup;
+			children = (
+				279CF7881A2581D900163AC1 /* DineExeter */,
+				279CF79E1A2581D900163AC1 /* DineExeterTests */,
+				279CF7871A2581D900163AC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		279CF7871A2581D900163AC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				279CF7861A2581D900163AC1 /* DineExeter.app */,
+				279CF79B1A2581D900163AC1 /* DineExeterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		279CF7881A2581D900163AC1 /* DineExeter */ = {
+			isa = PBXGroup;
+			children = (
+				279CF78B1A2581D900163AC1 /* AppDelegate.swift */,
+				279CF78D1A2581D900163AC1 /* ViewController.swift */,
+				279CF78F1A2581D900163AC1 /* Main.storyboard */,
+				279CF7921A2581D900163AC1 /* Images.xcassets */,
+				279CF7941A2581D900163AC1 /* LaunchScreen.xib */,
+				279CF7891A2581D900163AC1 /* Supporting Files */,
+			);
+			path = DineExeter;
+			sourceTree = "<group>";
+		};
+		279CF7891A2581D900163AC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				279CF78A1A2581D900163AC1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		279CF79E1A2581D900163AC1 /* DineExeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				279CF7A11A2581D900163AC1 /* DineExeterTests.swift */,
+				279CF79F1A2581D900163AC1 /* Supporting Files */,
+			);
+			path = DineExeterTests;
+			sourceTree = "<group>";
+		};
+		279CF79F1A2581D900163AC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				279CF7A01A2581D900163AC1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		279CF7851A2581D900163AC1 /* DineExeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279CF7A51A2581D900163AC1 /* Build configuration list for PBXNativeTarget "DineExeter" */;
+			buildPhases = (
+				279CF7821A2581D900163AC1 /* Sources */,
+				279CF7831A2581D900163AC1 /* Frameworks */,
+				279CF7841A2581D900163AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DineExeter;
+			productName = DineExeter;
+			productReference = 279CF7861A2581D900163AC1 /* DineExeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		279CF79A1A2581D900163AC1 /* DineExeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279CF7A81A2581D900163AC1 /* Build configuration list for PBXNativeTarget "DineExeterTests" */;
+			buildPhases = (
+				279CF7971A2581D900163AC1 /* Sources */,
+				279CF7981A2581D900163AC1 /* Frameworks */,
+				279CF7991A2581D900163AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				279CF79D1A2581D900163AC1 /* PBXTargetDependency */,
+			);
+			name = DineExeterTests;
+			productName = DineExeterTests;
+			productReference = 279CF79B1A2581D900163AC1 /* DineExeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		279CF77E1A2581D900163AC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Exeter;
+				TargetAttributes = {
+					279CF7851A2581D900163AC1 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					279CF79A1A2581D900163AC1 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 279CF7851A2581D900163AC1;
+					};
+				};
+			};
+			buildConfigurationList = 279CF7811A2581D900163AC1 /* Build configuration list for PBXProject "DineExeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 279CF77D1A2581D900163AC1;
+			productRefGroup = 279CF7871A2581D900163AC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				279CF7851A2581D900163AC1 /* DineExeter */,
+				279CF79A1A2581D900163AC1 /* DineExeterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		279CF7841A2581D900163AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279CF7911A2581D900163AC1 /* Main.storyboard in Resources */,
+				279CF7961A2581D900163AC1 /* LaunchScreen.xib in Resources */,
+				279CF7931A2581D900163AC1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279CF7991A2581D900163AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		279CF7821A2581D900163AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279CF78E1A2581D900163AC1 /* ViewController.swift in Sources */,
+				279CF78C1A2581D900163AC1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279CF7971A2581D900163AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279CF7A21A2581D900163AC1 /* DineExeterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		279CF79D1A2581D900163AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 279CF7851A2581D900163AC1 /* DineExeter */;
+			targetProxy = 279CF79C1A2581D900163AC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		279CF78F1A2581D900163AC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279CF7901A2581D900163AC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		279CF7941A2581D900163AC1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279CF7951A2581D900163AC1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		279CF7A31A2581D900163AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		279CF7A41A2581D900163AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		279CF7A61A2581D900163AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DineExeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		279CF7A71A2581D900163AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DineExeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		279CF7A91A2581D900163AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DineExeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DineExeter.app/DineExeter";
+			};
+			name = Debug;
+		};
+		279CF7AA1A2581D900163AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DineExeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DineExeter.app/DineExeter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		279CF7811A2581D900163AC1 /* Build configuration list for PBXProject "DineExeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279CF7A31A2581D900163AC1 /* Debug */,
+				279CF7A41A2581D900163AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279CF7A51A2581D900163AC1 /* Build configuration list for PBXNativeTarget "DineExeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279CF7A61A2581D900163AC1 /* Debug */,
+				279CF7A71A2581D900163AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		279CF7A81A2581D900163AC1 /* Build configuration list for PBXNativeTarget "DineExeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279CF7A91A2581D900163AC1 /* Debug */,
+				279CF7AA1A2581D900163AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 279CF77E1A2581D900163AC1 /* Project object */;
+}
